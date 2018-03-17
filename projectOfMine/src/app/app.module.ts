@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { CasualComponent } from './casual/casual.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CasualComponent
   ],
   imports: [
     BrowserModule
